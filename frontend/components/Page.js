@@ -8,6 +8,7 @@ class Page extends Component {
     render() {
         return (
             <div>
+                {/* puts the meta details in head tag */}
                 <Meta />
                 <Header />
                 {this.props.children}
