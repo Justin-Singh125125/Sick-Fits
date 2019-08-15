@@ -1,5 +1,7 @@
 import Nav from "./Nav";
 import Link from "next/link";
+
+// styled components
 import styled from 'styled-components';
 
 const Logo = styled.h1`
