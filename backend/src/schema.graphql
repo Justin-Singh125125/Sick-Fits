@@ -1,11 +1,9 @@
-type Dog{
-    name: String!
-}
-
+# the comment below is not actually commented out
+# import * from "./generated/prisma.graphql"
 type Mutation {
-    createADog(name: String!): Dog
+    createItem(title: String, description: String, price: Int, image: String, largeImage: String): Item!
 }
 
 type Query {
-    dogs: [Dog]!
+   items:[Item]!
 }
