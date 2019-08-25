@@ -39,7 +39,6 @@ class Item extends Component {
                     <Link href={{
                         pathname: "update",
                         query: { id: item.id }
-
                     }}>
                         <a>Edit </a>
                     </Link>

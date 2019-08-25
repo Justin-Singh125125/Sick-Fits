@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -229,19 +229,19 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 43
         },
         __self: this
       }, "Edit ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 45
         },
         __self: this
       }, "Add To Card"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 46
         },
         __self: this
       }, "Delete")));
@@ -533,14 +533,29 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ "./pages/items.js":
+/*!************************!*\
+  !*** ./pages/items.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ "./pages/index.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (_index__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ 5:
 /*!******************************!*\
-  !*** multi ./pages/index.js ***!
+  !*** multi ./pages/items.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! ./pages/items.js */"./pages/items.js");
 
 
 /***/ }),
@@ -612,4 +627,4 @@ module.exports = require("styled-components");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=items.js.map
