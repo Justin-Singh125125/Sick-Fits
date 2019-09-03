@@ -16,8 +16,9 @@ const DELETE_ITEM_MUTATION = gql`
 
 class DeleteItem extends Component {
     update = (cache, payload) => {
+
+        //read data back from cache
         const data = cache.readQuery({ query: ALL_ITEMS_QUERY });
-        console.log("test", data);
 
         //fileter the deleted item out of the page
         data.items = data.items.filter(item => item.id !== payload.data.deleteItem.id);
